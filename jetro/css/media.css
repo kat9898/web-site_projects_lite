@@ -1,0 +1,123 @@
+@media (max-width: 980px) {
+    .slick-track {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .recent-works__line img {
+        max-width: 97%;
+        min-height: 19px;
+    }
+
+    .recent-works__header .action__header {
+        min-width: 97px;
+    }
+
+    .recent-works__bottom li {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 880px) {
+    .footer__content {
+        flex-wrap: wrap;
+    }
+
+    .about_us {
+        min-width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    .contact__us {
+        min-width: 50%;
+    }
+}
+
+@media (max-width: 710px) {
+    .action__inner {
+        flex-wrap: wrap;
+    }
+
+    .action__column {
+        max-width: 100%;
+        padding-right: 0px;
+    }
+
+    .action__header-text {
+        margin: auto 0;
+    }
+
+    .action__more-wrapper {
+        margin: 0 auto;
+        width: 70px;
+    }
+
+    .action__header {
+        margin-bottom: 15px;
+        margin-top: 25px;
+    }
+
+    .action__text {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 620px) {
+    .twitter__widget {
+        min-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact__us {
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .header__menu-btn {
+        width: 30px;
+        display: block;
+        float: right;
+    }
+
+    .header__menu ul {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        z-index: 2;
+        background-color: #fff;
+        top: 90px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        border-bottom: 5px solid #e8603c;
+        padding-bottom: 5px;
+    }
+
+    .header__menu li {
+        display: block;
+        text-align: center;
+    }
+
+    .header__menu li+li {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+
+}
+
+@media (max-width: 520px) {
+    .slider__item-table {
+        max-width: 80%;
+        height: 35%;
+    }
+}
+
+@media (min-width: 600px) {
+    .header__menu ul {
+        display: block !important;
+    }
+}
